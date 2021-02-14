@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-
+import Classcomponents from "./components/Classcomponents";
+// import Functionalcomponents from "./components/Functionalcomponents";
 function App() {
   return (
     
-    <h1>Hello World!</h1>
+   <div className="App">
+     <Classcomponents/>
+     
+   </div>
   );
 }
 
