@@ -3,11 +3,12 @@ import './App.css';
 import Classcomponents from "./components/Classcomponents";
 import Functionalcomponents from "./components/Functionalcomponents";
 import Managestate from "./components/Managestate";
+import Hooks from "./components/Hooks";
 function App() {
   return (
     
    <div className="App">
-     <Managestate/>
+     <Hooks/>
    </div>
   );
 }
